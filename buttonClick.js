@@ -1,14 +1,10 @@
 function buttonclick() {
     let first = document.getElementById("fn").value
     let last = document.getElementById("ln").value
-    console.log(first, last)
-    let validname = first + " " + last
-    console.log(validname)
-
+    let validName = first + " " + last
     if (first.length > 0 && last.length > 0) {
         document.body.bgColor = randomcolor()
         console.log("hello")
-        
     }
     
 }
