@@ -4,7 +4,6 @@ function buttonclick() {
     let validName = first + " " + last
     if (first.length > 0 && last.length > 0) {
         document.body.bgColor = randomcolor()
-        console.log("hello")
     }
     
 }
